@@ -6,12 +6,14 @@ def number_guessing_game():
     
     while play_again.lower() == 'y':
         print("Hi! Welcome to the number guessing game.")
-        time.sleep(1)
+        time.sleep(2)
         
         print("Choose a difficulty level:")
         print("1. Easy (1 to 50)")
         print("2. Medium (1 to 100)")
         print("3. Hard (1 to 200)")
+        time.sleep(1)
+
         level = int(input("Enter the level number: "))
         
         if level == 1:
@@ -25,7 +27,7 @@ def number_guessing_game():
             max_number = 100
         
         print(f"I am going to pick a number between 1 and {max_number}.")
-        time.sleep(2)
+        time.sleep(1)
         print("Picking a number....")
         time.sleep(2)
         correct_answer = random.randint(1, max_number)

@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com//number-guessing-game.git
+   git clone https://github.com/NANDANS26/Number-Guesser-Project.git
    ```
 
 2. Navigate to the project directory:
@@ -57,12 +57,14 @@ def number_guessing_game():
     
     while play_again.lower() == 'y':
         print("Hi! Welcome to the number guessing game.")
-        time.sleep(1)
+        time.sleep(2)
         
         print("Choose a difficulty level:")
         print("1. Easy (1 to 50)")
         print("2. Medium (1 to 100)")
         print("3. Hard (1 to 200)")
+        time.sleep(1)
+        
         level = int(input("Enter the level number: "))
         
         if level == 1:
@@ -126,7 +128,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 NANDAN S - nandans123456321@gmail.com
 
-Project Link: [https://github.com/your-username/number-guessing-game](https://github.com/your-username/number-guessing-game)
+Project Link: https://github.com/NANDANS26/Number-Guesser-Project.git
 ```
 
-This `README.md` provides an overview of the game, instructions on how to play, and steps to get the project up and running. You can customize the contact information and project link as needed.
+This `README.md` file provides an overview of the game, instructions on how to play, and steps to get the project up and running. You can customize the contact information and project link as needed.
